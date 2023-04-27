@@ -54,7 +54,7 @@ favorite_languages = {
     'sarah': 'c',
     'edward': 'ruby',
     'phil': 'python',
-    }
+}
 language = favorite_languages['sarah'].title()
 print(f"Sarah's favorite language is {language}.")
 # 2-7 使用 get() 来访问值，其中第一个参数用于指定键，是必不可少的；第二个参数为指定的
@@ -70,7 +70,7 @@ user_0 = {
     'username': 'efermi',
     'first': 'enrico',
     'last': 'fermi',
-    }
+}
 for key, value in user_0.items():
     print(f"\nKey: {key}")
     print(f"Value: {value}")
@@ -134,7 +134,7 @@ print(f"Total number of aliens: {len(aliens)}")
 pizza = {
     'crust': 'thick',
     'toppings': ['mushrooms', 'extra cheese'],
-    }
+}
 # 概述所点的比萨。
 print(f"You ordered a {pizza['crust']}-crust pizza with the following toppings:")
 for topping in pizza['toppings']:
@@ -144,16 +144,16 @@ favorite_languages = {
     'sarah': ['c'],
     'edward': ['ruby', 'go'],
     'phil': ['python', 'haskell'],
-    }
+}
 for name, languages in favorite_languages.items():
     print(f"\n{name.title()}'s favorite languages are:")
     for language in languages:
         print(f"\t{language.title()}")
 # 4-3 在字典中存储字典
 users = {
-    'aeinstein': {'first': 'albert','last': 'einstein','location': 'princeton',},
-    'mcurie': {'first': 'marie', 'last': 'curie', 'location': 'paris',},
-    }
+    'aeinstein': {'first': 'albert', 'last': 'einstein', 'location': 'princeton', },
+    'mcurie': {'first': 'marie', 'last': 'curie', 'location': 'paris', },
+}
 for username, user_info in users.items():
     print(f"\nUsername: {username}")
     full_name = f"{user_info['first']} {user_info['last']}"

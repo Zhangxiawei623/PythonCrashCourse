@@ -39,12 +39,12 @@ print(age >= 21)
 # 检查多个条件
 age_0 = 22
 age_1 = 18
-    # 使用 and 检查多个条件
+# 使用 and 检查多个条件
 print(age_0 >= 21 and age_1 >= 21)
 age_1 = 22
 print(age_0 >= 21 and age_1 >= 21)
 print((age_0 >= 21) and (age_1 >= 21))
-    # 使用 or 检查多个条件
+# 使用 or 检查多个条件
 age_1 = 18
 print(age_0 >= 21 or age_1 >= 21)
 age_0 = 18
@@ -121,7 +121,7 @@ if 'pepperoni' in requested_toppings:
 if 'extra cheese' in requested_toppings:
     print("Adding extra cheese.")
 print("\nFinished making your pizza!")
-    # 反例
+# 反例
 requested_toppings = ['mushrooms', 'extra cheese']
 if 'mushrooms' in requested_toppings:
     print("Adding mushrooms.")
