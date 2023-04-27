@@ -11,7 +11,7 @@
 # "The language 'Python' is named after Monty Python, not the snake." 
 # "One of Python's strengths is its diverse and supportive community." 
 
-name = "ada lovelace" 
-print(name.title()) 
-print(name.upper()) 
-print(name.lower()) 
+name = "ada lovelace"
+print(name.title())
+print(name.upper())
+print(name.lower())
