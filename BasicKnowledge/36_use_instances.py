@@ -72,6 +72,14 @@ class Battery:
         """打印一条描述电瓶容量的消息。"""
         print(f"This car has a {self.battery_size}-kWh battery.")
 
+    def get_range(self):
+        """打印一条消息，指出电瓶的续航里程。"""
+        if self.battery_size == 75:
+            mileage = 260
+        elif self.battery_size == 100:
+            mileage = 315
+        print(f"This car can go about {mileage} miles on a full charge.")
+
 
 # 3-1 子类的方法__init__()
 class ElectricCar(Car):
@@ -106,3 +114,7 @@ my_tesla.fill_gas_tank()
 my_tesla = ElectricCar('tesla', 'model s', 2019)
 print(my_tesla.get_descriptive_name())
 my_tesla.battery.describe_battery()
+my_tesla.battery.get_range()
+
+# 3-5 模拟实物
+
